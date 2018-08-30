@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div id="container">
+          <div id="audio-img">
+              <img class="cover">
+          </div>
+          <div id="audio-player">
+              <div id="audio-info">
+                  <span class="artist"></span> - <span class="title"></span>
+              </div>
+              <input type="range" id="volume" min="0" max="10" value="5"><br>
+              <div id="audio-buttons">
+                  <button id="prev"></button>
+                  <button id="play"></button>
+                  <button id="pause"></button>
+                  <button id="stop"></button>
+                  <button id="next"></button>
+              </div>
+              <div class="clearfix"></div>
+              <div id="tracker">
+                  <div id="progressbar">
+                      <span id="progress"></span>
+                  </div>
+                  <span id="duration"></span>
+              </div>
+              <div class="clearfix">
+                  <ul id="playlist">
+                      <li song="Afreen Afreen.mp3" cover="cover1.jpg" artist="new">Afreen Afreen</li>
+                      <li song="Dilbar Dilbar.mp3" cover="cover1.jpg" artist="new">dilbar dilbar</li>
+                      <li song="Paniyon Sa.mp3" cover="cover1.jpg" artist="new">Paniyon Sa</li>
+                      <li song="Tajare Haram.mp3" cover="cover1.jpg" artist="new">Tajare Haram</li>
+                      <li song="Tera Ghata.mp3" cover="cover1.jpg" artist="new">Tera Ghata</li>
+                  </ul>
+              </div>
+          </div>
+   </div>
+   
+<!--    <script src="js/jquery1.11.1.js"></script>-->
+    <script src="js/jquery3.1.js"></script>
+   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
